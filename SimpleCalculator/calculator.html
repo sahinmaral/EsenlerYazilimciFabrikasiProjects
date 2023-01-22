@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="calculator.css" />
+  <title>Calculator</title>
+</head>
+
+<body>
+  <div id="calculator-main">
+    <div id="calculator-header">
+      <h3>Calculator</h3>
+    </div>
+    <div class="calculator-rows">
+      <div id="calculator-screen" class="calculator-screen"></div>
+      <div id="calculator-clear" class="calculator-buttons" onclick="clearCalculator()">
+        C
+      </div>
+    </div>
+    <div class="calculator-rows">
+      <div id="calculator-one" class="calculator-buttons" onclick="pushDigits(1)">
+        1
+      </div>
+      <div id="calculator-two" class="calculator-buttons" onclick="pushDigits(2)">
+        2
+      </div>
+      <div id="calculator-three" class="calculator-buttons" onclick="pushDigits(3)">
+        3
+      </div>
+      <div id="calculator-divide" class="calculator-buttons" onclick="pushOperators(event)">
+        /
+      </div>
+    </div>
+    <div class="calculator-rows">
+      <div id="calculator-four" class="calculator-buttons" onclick="pushDigits(4)">
+        4
+      </div>
+      <div id="calculator-five" class="calculator-buttons" onclick="pushDigits(5)">
+        5
+      </div>
+      <div id="calculator-six" class="calculator-buttons" onclick="pushDigits(6)">
+        6
+      </div>
+      <div id="calculator-substract" class="calculator-buttons" onclick="pushOperators(event)">
+        -
+      </div>
+    </div>
+    <div class="calculator-rows">
+      <div id="calculator-seven" class="calculator-buttons" onclick="pushDigits(7)">
+        7
+      </div>
+      <div id="calculator-eight" class="calculator-buttons" onclick="pushDigits(8)">
+        8
+      </div>
+      <div id="calculator-nine" class="calculator-buttons" onclick="pushDigits(9)">
+        9
+      </div>
+      <div id="calculator-add" class="calculator-buttons" onclick="pushOperators(event)">
+        +
+      </div>
+    </div>
+    <div class="calculator-rows">
+      <div id="calculator-floatpoint" class="calculator-buttons" onclick="convertFloatNumber()">
+        .
+      </div>
+      <div id="calculator-zero" class="calculator-buttons" onclick="pushDigits(0)">
+        0
+      </div>
+      <div id="calculator-result" class="calculator-buttons" onclick="pushOperators(event)">
+        =
+      </div>
+      <div id="calculator-multiply" class="calculator-buttons" onclick="pushOperators(event)">
+        *
+      </div>
+    </div>
+  </div>
+  <script src="calculator.js"></script>
+</body>
+
+</html>
