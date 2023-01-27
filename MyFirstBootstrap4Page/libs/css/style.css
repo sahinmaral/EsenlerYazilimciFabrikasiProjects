@@ -1,0 +1,20 @@
+.jumbotron {
+  background-color: #e9ecef;
+  padding: 50px;
+}
+
+.list-group {
+  width: 80%;
+  border: 1px solid lightgray;
+  --bs-list-group-border-radius: 0px;
+}
+
+footer {
+  height: 100px;
+  padding-top: 40px;
+  background-color: #e9ecef;
+}
+
+.news-banner {
+  height: 200px;
+}

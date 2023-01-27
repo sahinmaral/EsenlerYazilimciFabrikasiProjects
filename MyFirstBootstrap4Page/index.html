@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="libs/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="libs/css/all.min.css" />
+    <link rel="stylesheet" href="libs/css/fontawesome.min.css" />
+    <link href="libs/css/style.css" rel="stylesheet" />
+    <title>My First Bootstrap 4 Page</title>
+  </head>
+  <body>
+    <div class="jumbotron text-center">
+      <h1>My First Bootstrap 4 Page</h1>
+      <p class="lead">Resize this responsive page to see the effect!</p>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3">
+      <a class="navbar-brand" href="#">My Blog</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarText"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container mt-5">
+      <div class="row">
+        <!-- xs : less than 576 px
+        sm : (min-width: 576px) -->
+        <div class="col-xs-12 col-sm-4">
+          <div id="about-me">
+            <h1>About Me</h1>
+            <p>Photo of me:</p>
+            <img
+              class="img-fluid w-50"
+              src="libs/images/myPhoto.jpg"
+              alt="my-photo"
+            />
+            <p>This picture was taken at 2021</p>
+          </div>
+          <div id="social-media">
+            <h1>Social Media Links</h1>
+            <p>I usually use Linked-in</p>
+            <ul class="list-group mb-5">
+              <a
+                class="list-group-item"
+                href="https://www.linkedin.com/in/sahinmaral"
+                ><i class="fa-brands fa-github"></i> Linked-in</a
+              >
+              <a
+                class="list-group-item"
+                href="https://www.github.com/sahinmaral"
+                ><i class="fa-brands fa-linkedin"></i> Github</a
+              >
+              <a class="list-group-item" href="mailto:sahin.maral@hotmail.com"
+                ><i class="fa-solid fa-envelope"></i> Hotmail</a
+              >
+            </ul>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-8">
+          <div class="news">
+            <h1>.NET 7 has finally released</h1>
+            <p class="text-secondary">Created at July 1, 2016</p>
+            <img
+              class="img-fluid news-banner"
+              src="libs/images/banner.jfif"
+              alt="news"
+            />
+            <p>.NET 7 has finally released</p>
+            <p>
+              As a mini introduction, .NET is Microsoft`s platform for building
+              and developing different types of applications. One of the main
+              features of this platform is that it is cross-platform, open
+              source and free. With the .NET platform you can build from desktop
+              applications (for different operating systems such as Windows,
+              macOS or Linux), mobile applications (Android or iOs) to web apps,
+              IoT software or even games (with the Unity engine based on C#).
+              Regarding .NET 7, it is the next version that Microsoft is
+              re-releasing by the end of 2022. The current official stable
+              version is .NET 6.
+            </p>
+          </div>
+
+          <div class="news">
+            <h1>RUST becomes popular</h1>
+            <p class="text-secondary">Created at Dec 7, 22</p>
+            <img
+              class="img-fluid news-banner"
+              src="libs/images/rust.jpg"
+              alt="news"
+            />
+            <p>
+              Rust is a statically-typed programming language designed for
+              performance and safety, especially safe concurrency and memory
+              management. Its syntax is similar to that of C++. It is an
+              open-source project developed originally at Mozilla Research. In
+              2021, the Rust Foundation has taken the torch and is driving the
+              development of the language. Rust solves problems that C/C++
+              developers have been struggling with for a long time: memory
+              errors and concurrent programming. This is seen as its main
+              benefit. However, these are not the only examples of how Rust is
+              different from C++.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="text-center mt-3">
+      <p>Copyright &copy; 2022-2023; sahinmaral</p>
+    </footer>
+
+    <script src="libs/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
