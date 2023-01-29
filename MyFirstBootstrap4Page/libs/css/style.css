@@ -18,3 +18,8 @@ footer {
 .news-banner {
   height: 200px;
 }
+
+.text-under{
+  color: gray;
+  font-size:1rem;
+}

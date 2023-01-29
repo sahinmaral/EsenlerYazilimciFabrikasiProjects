@@ -10,7 +10,7 @@ Deployed at https://sahinmaral-myfirstbootstrap4page.netlify.app
 
 <b>Click to picture to watch for understanding how to build </b>
 
-[![](https://i9.ytimg.com/vi_webp/q_x8AHImoT0/mqdefault.webp?v=63d42535&sqp=CLjM0J4G&rs=AOn4CLCFL5UY0IJ-xoWmNfPHfqq8hGfDqQ)](https://www.youtube.com/watch?v=q_x8AHImoT0)
+[![](https://media.licdn.com/dms/image/sync/D4D27AQEXcoMb1jnYnQ/articleshare-shrink_800/0/1674850735893?e=1675605600&v=beta&t=l7MZ9TAWG_CdqihWzcQlwvWp02LBlFXIe6tr1INlFUk)](https://www.youtube.com/watch?v=q_x8AHImoT0)
 
 
 <br/>
@@ -29,5 +29,5 @@ https://sahinmaral-myfirstbootstrap4page.netlify.app sitesine deploy edilmiştir
 
 <b> Nasıl yapıldığını anlamak için resme tıklayıp izleyebilirsiniz </b>
 
-[![](https://i9.ytimg.com/vi_webp/q_x8AHImoT0/mqdefault.webp?v=63d42535&sqp=CLjM0J4G&rs=AOn4CLCFL5UY0IJ-xoWmNfPHfqq8hGfDqQ)](https://www.youtube.com/watch?v=q_x8AHImoT0)
+[![](https://media.licdn.com/dms/image/sync/D4D27AQEXcoMb1jnYnQ/articleshare-shrink_800/0/1674850735893?e=1675605600&v=beta&t=l7MZ9TAWG_CdqihWzcQlwvWp02LBlFXIe6tr1INlFUk)](https://www.youtube.com/watch?v=q_x8AHImoT0)
 
