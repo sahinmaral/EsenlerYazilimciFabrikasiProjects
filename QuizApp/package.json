@@ -9,7 +9,8 @@
     "./src/scoreboard.html"
   ],
   "scripts": {
-    "start": "parcel -p 8080"
+    "start": "parcel -p 8080",
+    "build" : "parcel build"
   },
   "keywords": [],
   "author": "",
