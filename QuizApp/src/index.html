@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="./css/main.css" rel="stylesheet" />
+  <link type="image/png" sizes="16x16" rel="icon" href="./favicon.png">
+  <title>Quiz App</title>
+</head>
+
+<body>
+  <div class="container">
+    <div id="homepage-info" class="relative">
+      <h1>Welcome to Quiz App</h1>
+      <ul class="mt-10">
+        <li>
+          Game consists of 10 questions.
+        </li>
+        <li>
+          To win the game , you must answer at least <b>four</b> questions correctly
+        </li>
+        <li>
+          You can click the button under this text to start the game
+        </li>
+      </ul>
+      <div id="homepage-startGame">
+        <button>start</button>
+      </div>
+      <div id="startGameModal" class="invisible">
+        <button class="close-button">
+          X
+        </button>
+
+        <div class="pt-[130px]">
+          <h1 id="startGameModal-callingName"></h1>
+          <h1>Are you ready to play quiz app ?</h1>
+          <div class="startGameModal-buttons">
+            <button class="btn-small bg-green-700 hover:text-white hover:shadow-lg hover:shadow-green-400">YES</button>
+            <button class="btn-small bg-red-700 hover:text-white hover:shadow-lg hover:shadow-red-400">NO</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="enterNameModal" class="invisible">
+        <button class="close-button">
+          X
+        </button>
+
+        <div class="pt-[130px]">
+          <h1>Enter your name below</h1>
+          <input type="text" placeholder="Name">
+        </div>
+
+        <button type="submit" class="btn-small bg-green-700 hover:text-white hover:shadow-lg hover:shadow-green-400 mt-5 sm:mt-[60px]">Submit</button>
+      </div>
+
+
+    </div>
+  </div>
+
+  <script type="module" src="./js/index.js"></script>
+
+</body>
+
+</html>

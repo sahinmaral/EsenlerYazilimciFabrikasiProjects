@@ -1,0 +1,24 @@
+{
+  "name": "quizapp",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "source": [
+    "./src/index.html",
+    "./src/questions.html",
+    "./src/scoreboard.html"
+  ],
+  "scripts": {
+    "start": "parcel -p 8080"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "buffer": "^5.7.1",
+    "parcel": "^2.8.3",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4"
+  }
+}

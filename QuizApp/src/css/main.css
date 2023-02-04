@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-purple-200;
+  }
+
+  h1 {
+    @apply !text-3xl !font-semibold;
+  }
+
+  h2{
+    @apply !text-2xl !font-semibold
+  }
+
+  p {
+    @apply text-lg;
+  }
+
+  .btn-large {
+    @apply px-10 py-4 text-3xl font-bold;
+  }
+
+  .btn-small {
+    @apply px-5 py-2 text-xl font-bold;
+  }
+}
+
+@layer components {
+  #homepage-info {
+    @apply w-[600px] sm:w-[320px]
+    mx-auto px-[50px] py-[60px] my-[200px] text-center rounded-3xl bg-opacity-75 backdrop-blur-sm bg-creamGlass drop-shadow-md;
+  }
+
+  #homepage-info ul li {
+    @apply mx-auto drop-shadow-lg text-[#404040] font-semibold text-lg my-1;
+  }
+
+  #homepage-startGame {
+    @apply pt-[50px];
+  }
+
+  #homepage-startGame button {
+    @apply cursor-pointer bg-[#404040] px-10 py-4 text-3xl font-bold text-purple-200  rounded-lg shadow-[10px_10px_5px_0_rgba(0,0,0,0.75)] tracking-widest;
+  }
+
+  #homepage-startGame button:hover {
+    @apply shadow-none translate-x-3 translate-y-3 bg-[#525151];
+  }
+
+  #startGameModal {
+    @apply px-10 sm:pb-7 pb-12 top-[50px] absolute sm:w-[220px]
+    bg-blue-200 backdrop-blur-lg mx-auto rounded-lg drop-shadow-md;
+  }
+
+  .startGameModal-buttons {
+    @apply mt-10 sm:mt-12 space-x-10 sm:space-x-0 sm:space-y-10 sm:flex sm:flex-col;
+  }
+
+  #verifyAnswerModal {
+    @apply px-[3.5rem] h-[85%] sm:h-[90%] top-[50px] absolute sm:w-[220px]
+    bg-blue-200 backdrop-blur-lg mx-auto rounded-lg drop-shadow-md;
+  }
+
+  #verifyAnswerModal .content{
+    @apply pt-[200px]
+  }
+
+  .verifyAnswerModal-buttons {
+    @apply mt-10 sm:mt-12 space-x-10 sm:space-x-0 sm:space-y-10 sm:flex sm:flex-col;
+  }
+
+  #enterNameModal {
+    @apply px-10 sm:h-[490px] h-[330px] top-[50px] absolute w-[85%] sm:w-[220px]
+    bg-blue-200 backdrop-blur-lg mx-auto rounded-lg drop-shadow-md;
+  }
+
+  #enterNameModal input[type="text"] {
+    @apply py-2 mt-5 w-full rounded-lg px-2;
+  }
+
+  .close-button {
+    @apply mt-5 text-white bg-blue-500 w-[50px] h-[50px]  float-right font-bold rounded-full text-xl;
+  }
+
+  .close-button:hover {
+    @apply shadow-md shadow-blue-800;
+  }
+
+
+  #questions-area {
+    @apply w-[600px] sm:w-[320px]
+    mx-auto p-[50px] sm:my-[50px] my-[200px] text-center rounded-3xl bg-opacity-75 backdrop-blur-sm bg-creamGlass drop-shadow-md;
+  }
+
+
+  #questions-area h3{
+    @apply text-xl;
+  }
+
+  #answers-area{
+    @apply mt-10 ml-4 sm:ml-0;
+  }
+
+  #answers-area button {
+    @apply w-[200px] break-words border-black border sm:mx-auto my-4 mx-4 hover:shadow-xl hover:shadow-blue-300 text-xl;
+  }
+}

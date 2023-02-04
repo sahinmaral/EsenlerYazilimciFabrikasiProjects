@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./css/main.css" rel="stylesheet" />
+    <link type="image/png" sizes="16x16" rel="icon" href="./favicon.png">
+    <title>Questions</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="questions-area" class="relative">
+        <div id="verifyAnswerModal" class="invisible">
+          <button class="close-button">X</button>
+
+          <div class="content">
+            <h2>Are you sure your selected answer ?</h2>
+            <div class="verifyAnswerModal-buttons">
+              <button
+                class="btn-small bg-green-700 hover:text-white hover:shadow-lg hover:shadow-green-400"
+              >
+                YES
+              </button>
+              <button
+                class="btn-small bg-red-700 hover:text-white hover:shadow-lg hover:shadow-red-400"
+              >
+                NO
+              </button>
+            </div>
+          </div>
+        </div>
+        <h3></h3>
+        <div id="answers-area">
+          <div class="flex flex-row sm:flex-col">
+            <button id="answerButton1" class="btn-small"></button>
+            <button id="answerButton2" class="btn-small"></button>
+          </div>
+          <div class="flex flex-row sm:flex-col">
+            <button id="answerButton3" class="btn-small"></button>
+            <button id="answerButton4" class="btn-small"></button>
+          </div>
+        </div>
+
+        <button
+          id="quitGameButton"
+          class="btn-small mt-10 bg-red-700 hover:text-white hover:shadow-lg hover:shadow-red-400"
+        >
+          Quit Game
+        </button>
+      </div>
+    </div>
+    <script type="module" src="./js/questions.js"></script>
+  </body>
+</html>
