@@ -10,7 +10,7 @@ Deployed at https://sahinmaral-simplecalculator.netlify.app
 
 <b>Click to picture to watch for understanding how to build </b>
 
-[![](https://media.licdn.com/dms/image/sync/D4D27AQEeG1Wr2mnAPA/articleshare-shrink_800/0/1674423685370?e=1675605600&v=beta&t=EjIQw0ogWJuFXdiCnOGx_RpS4Fl1yy0Qhny2qpOW9Cc)](https://www.youtube.com/watch?v=OlRJ2gqkEPk)
+[![](https://i9.ytimg.com/vi_webp/OlRJ2gqkEPk/mqdefault.webp?v=63cd9e40&sqp=CMyU_54G&rs=AOn4CLBpjNhCcqYPVwMNrzqtT0K26LwiEg)](https://www.youtube.com/watch?v=OlRJ2gqkEPk)
 
 
 <br/>
@@ -29,5 +29,5 @@ https://sahinmaral-simplecalculator.netlify.app sitesine deploy edilmiştir
 
 <b> Nasıl yapıldığını anlamak için resme tıklayıp izleyebilirsiniz </b>
 
-[![](https://media.licdn.com/dms/image/sync/D4D27AQEeG1Wr2mnAPA/articleshare-shrink_800/0/1674423685370?e=1675605600&v=beta&t=EjIQw0ogWJuFXdiCnOGx_RpS4Fl1yy0Qhny2qpOW9Cc)](https://www.youtube.com/watch?v=OlRJ2gqkEPk)
+[![](https://i9.ytimg.com/vi_webp/OlRJ2gqkEPk/mqdefault.webp?v=63cd9e40&sqp=CMyU_54G&rs=AOn4CLBpjNhCcqYPVwMNrzqtT0K26LwiEg)](https://www.youtube.com/watch?v=OlRJ2gqkEPk)
 

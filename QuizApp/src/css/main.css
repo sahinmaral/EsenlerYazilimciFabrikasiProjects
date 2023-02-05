@@ -73,7 +73,7 @@
   }
 
   #enterNameModal {
-    @apply px-10 sm:h-[490px] h-[330px] top-[50px] absolute w-[85%] sm:w-[220px]
+    @apply px-10 pb-[3.5rem] top-[50px] absolute w-[85%] sm:w-[220px]
     bg-blue-200 backdrop-blur-lg mx-auto rounded-lg drop-shadow-md;
   }
 

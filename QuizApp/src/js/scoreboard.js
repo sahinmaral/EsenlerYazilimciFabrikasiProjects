@@ -5,7 +5,7 @@ const user = getUser();
 const usernameAreaElement = document.getElementById("usernameArea");
 const scoreAreaElement = document.getElementById("scoreArea");
 
-const refreshGameButton = document.getElementById("homepage-startGame");
+const refreshGameButton = document.querySelector("#homepage-startGame button");
 refreshGameButton.addEventListener("click", () => {
   localStorage.clear();
   window.location.href = "./index.html";
