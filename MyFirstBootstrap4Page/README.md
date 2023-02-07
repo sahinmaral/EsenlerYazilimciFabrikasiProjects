@@ -10,7 +10,10 @@ Deployed at https://sahinmaral-myfirstbootstrap4page.netlify.app
 
 <b>Click to picture to watch for understanding how to build </b>
 
-[![](https://i9.ytimg.com/vi_webp/q_x8AHImoT0/mqdefault.webp?v=63d42535&sqp=CMyU_54G&rs=AOn4CLBeHL4Y5HzaXH19fvQLpMoLZRKmOw)](https://www.youtube.com/watch?v=q_x8AHImoT0)
+
+<a href="https://www.youtube.com/watch?v=q_x8AHImoT0">
+<img src="./thumbnail.webp"></img>
+</a>
 
 
 <br/>
@@ -29,5 +32,8 @@ https://sahinmaral-myfirstbootstrap4page.netlify.app sitesine deploy edilmiştir
 
 <b> Nasıl yapıldığını anlamak için resme tıklayıp izleyebilirsiniz </b>
 
-[![](https://i9.ytimg.com/vi_webp/q_x8AHImoT0/mqdefault.webp?v=63d42535&sqp=CMyU_54G&rs=AOn4CLBeHL4Y5HzaXH19fvQLpMoLZRKmOw)](https://www.youtube.com/watch?v=q_x8AHImoT0)
+<a href="https://www.youtube.com/watch?v=q_x8AHImoT0">
+<img src="./thumbnail.webp"></img>
+</a>
+
 

@@ -10,7 +10,9 @@ Deployed at https://sahinmaral-simplecalculator.netlify.app
 
 <b>Click to picture to watch for understanding how to build </b>
 
-[![](https://i9.ytimg.com/vi_webp/OlRJ2gqkEPk/mqdefault.webp?v=63cd9e40&sqp=CMyU_54G&rs=AOn4CLBpjNhCcqYPVwMNrzqtT0K26LwiEg)](https://www.youtube.com/watch?v=OlRJ2gqkEPk)
+<a href="https://www.youtube.com/watch?v=OlRJ2gqkEPk">
+<img src="./thumbnail.webp"></img>
+</a>
 
 
 <br/>
@@ -29,5 +31,8 @@ https://sahinmaral-simplecalculator.netlify.app sitesine deploy edilmiştir
 
 <b> Nasıl yapıldığını anlamak için resme tıklayıp izleyebilirsiniz </b>
 
-[![](https://i9.ytimg.com/vi_webp/OlRJ2gqkEPk/mqdefault.webp?v=63cd9e40&sqp=CMyU_54G&rs=AOn4CLBpjNhCcqYPVwMNrzqtT0K26LwiEg)](https://www.youtube.com/watch?v=OlRJ2gqkEPk)
+<a href="https://www.youtube.com/watch?v=OlRJ2gqkEPk">
+<img src="./thumbnail.webp"></img>
+</a>
+
 

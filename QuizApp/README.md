@@ -21,8 +21,9 @@ Deployed at https://sahinmaral-quizapp.netlify.app
 
 <b>Click to picture to watch for understanding how to build </b>
 
-[![](https://i9.ytimg.com/vi/F-RZHNpxiKM/mqdefault.jpg?v=63dfd13a&sqp=CNip_54G&rs=AOn4CLAqJ_Vad_YIZBfQ23Mda_utFri9hA)](https://www.youtube.com/watch?v=F-RZHNpxiKM)
-
+<a href="https://www.youtube.com/watch?v=F-RZHNpxiKM">
+<img src="./thumbnail.jpg"></img>
+</a>
 
 <br/>
 <br/>
@@ -33,7 +34,6 @@ Deployed at https://sahinmaral-quizapp.netlify.app
 ### Proje 3 - Quiz Uygulaması
 
 <br/>
-
 
 Bu projede amaç , JSON dosyasından gelen soruları içeren bir quiz uygulaması yapmaktır. İki haftadır Tailwind CSS öğrendiğimden dolayı , CSS framework olarak Tailwind CSS kullanmaya karar verdim. Bootstrap ; bileşen tabanlı bir CSS framework tür , bunun anlamı ise örnek olarak daire köşeli , şık bir mavi buton (btn btn-primary) gibi HTML element oluşturmak için herhangi bir CSS selector atayarak özelleştirilmiş HTML elementleri sağlayabilir. Tailwind CSS ise özellik temelli bir CSS framework tür , bunun anlamı ise CSS özelliklerini in-line CSS stilleme gibi daha hızlı kullanmamızı sağlar. Tailwind CSS , özellik tabanlı bir CSS framework olduğu için Tailwind CSS üzerindeki her CSS özelliğini kullanmadığınız taktirde uygulamanızda yüklenmeyecektir. Tailwind CSS ayrıca şu özellikleri de sunar :
 <ul>
@@ -52,5 +52,6 @@ https://sahinmaral-quizapp.netlify.app sitesine deploy edilmiştir
 
 <b> Nasıl yapıldığını anlamak için resme tıklayıp izleyebilirsiniz </b>
 
-[![](https://i9.ytimg.com/vi/F-RZHNpxiKM/mqdefault.jpg?v=63dfd13a&sqp=CNip_54G&rs=AOn4CLAqJ_Vad_YIZBfQ23Mda_utFri9hA)](https://www.youtube.com/watch?v=F-RZHNpxiKM)
-
+<a href="https://www.youtube.com/watch?v=F-RZHNpxiKM">
+<img src="./thumbnail.jpg"></img>
+</a>
