@@ -27,43 +27,6 @@ const setCurrentPicture = () => {
   }
 };
 
-const setElementsAtMobileSize = () => {
-  document.querySelector(".photo-gallery").classList.add("shrinked");
-  document.querySelector(".photo-gallery .content").classList.add("shrinked");
-  document
-    .querySelector(".photo-gallery .all-photos")
-    .classList.add("shrinked");
-
-  document.querySelectorAll(".photo-gallery .thumbnail").forEach((element) => {
-    element.classList.add("shrinked");
-  });
-
-  document.querySelectorAll(".photo-gallery .buttons i").forEach((element) => {
-    element.classList.remove("fa-2xl");
-    element.classList.add("fa-lg");
-  });
-};
-
-const setElementsAtNormalSize = () => {
-  document.querySelector(".photo-gallery").classList.remove("shrinked");
-  document
-    .querySelector(".photo-gallery .content")
-    .classList.remove("shrinked");
-  document
-    .querySelector(".photo-gallery .all-photos")
-    .classList.remove("shrinked");
-  document
-    .querySelectorAll(".photo-gallery .all-photos .thumbnail")
-    .forEach((element) => {
-      element.classList.remove("shrinked");
-    });
-
-  document.querySelectorAll(".photo-gallery .buttons i").forEach((element) => {
-    element.classList.add("fa-2xl");
-    element.classList.remove("fa-lg");
-  });
-};
-
 nextPhotoElement.addEventListener("click", () => {
   if (currentImageIndex !== 9) {
     currentImageIndex++;
