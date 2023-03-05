@@ -1,0 +1,33 @@
+.app {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border:3px solid #E96479;
+  padding:20px;
+  text-align: center;
+}
+
+p{
+  font-size:18px;
+}
+
+button{
+  border:0px;
+  background-color: #7DB9B6;
+}
+
+
+.form .buttons button{
+  cursor: pointer;
+  padding:10px 60px;
+  margin:5px;
+  font-size:larger;
+}
+
+.form .buttons button:hover{
+  -webkit-box-shadow: 5px 5px 5px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 5px 5px 5px -4px rgba(0,0,0,0.75);
+  box-shadow: 5px 5px 5px -4px rgba(0,0,0,0.75);
+}
