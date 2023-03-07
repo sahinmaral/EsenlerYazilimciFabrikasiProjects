@@ -1,0 +1,18 @@
+{
+  "categories": [
+    { "id": 1, "name": "Meat" },
+    { "id": 2, "name": "Cereals" },
+    { "id": 3, "name": "Fruits" },
+    { "id": 4, "name": "Tubers" },
+    { "id": 5, "name": "Vegetables" }
+  ],
+  "foods": [
+    { "id": 1, "name": "Chicken", "categoryId": 1 },
+    { "id": 2, "name": "Beef", "categoryId": 1 },
+    { "id": 3, "name": "Duck", "categoryId": 1 },
+    { "id": 4, "name": "Oat", "categoryId": 2 },
+    { "id": 5, "name": "Wheat", "categoryId": 2 },
+    { "id": 6, "name": "Cherry", "categoryId": 3 },
+    { "id": 7, "name": "Potato", "categoryId": 4 }
+  ]
+}
