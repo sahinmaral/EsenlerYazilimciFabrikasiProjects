@@ -16,10 +16,10 @@ This project is deployed at https://sahinmaral-phonebook.netlify.app
 <img src="./thumbnail-2.png" style="width:400px; height:200px;"></img>
 </a>
 
-## Preview at laptop size
+## Preview at laptop display
 <img src="./preview.png"></img>
 
-## Preview at mobile size
+## Preview at mobile display
 <img src="./preview-mobile.png"></img>
 
 <br/>
@@ -44,10 +44,10 @@ https://sahinmaral-phonebook.netlify.app sitesine deploy edilmiştir.
 <img src="./thumbnail-2.png" style="width:400px; height:200px;"></img>
 </a>
 
-## Preview at laptop size
+## Laptop ekranında görünümü
 <img src="./preview.png"></img>
 
-## Preview at mobile size
+## Telefon ekranında görünümü
 <img src="./preview-mobile.png"></img>
 
 
