@@ -22,6 +22,9 @@ This project is deployed at https://sahinmaral-phonebook.netlify.app
 ## Preview at mobile display
 <img src="./preview-mobile.png"></img>
 
+## Preview of modal component
+<img src="./modal-component.png"></img>
+
 <br/>
 <br/>
 <br/>
@@ -49,6 +52,9 @@ https://sahinmaral-phonebook.netlify.app sitesine deploy edilmiştir.
 
 ## Telefon ekranında görünümü
 <img src="./preview-mobile.png"></img>
+
+## Modal component görünümü
+<img src="./modal-component.png"></img>
 
 
 <hr />

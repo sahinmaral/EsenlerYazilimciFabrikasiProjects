@@ -1,9 +1,11 @@
 body {
   font-family: "Inter", sans-serif !important;
+  background-color: #B4E4FF !important;
 }
 
 .header {
   padding: 30px;
+  background-color: #7dc8f4;
 }
 
 .header h3 {
@@ -41,6 +43,7 @@ body {
 
 .card {
   margin: 10px 0;
+  background-color: #ECF2FF !important;
 }
 
 .card:hover {
@@ -48,6 +51,7 @@ body {
 }
 
 .card .thumbnail svg {
+  background-color: #DFFFD8;
   border: 1px solid black;
   padding: 10px;
   font-size: 50px;
@@ -68,12 +72,15 @@ body {
 
 .modal-content{
     margin-top:200px;
+    background-color: #FFF4D2 !important;
 }
+
 
 .modal .thumbnail {
   width: 100px;
   height: 100px;
   border: 1px solid rgba(0, 0, 0,0.1);
+  background-color: #DFFFD8;
   margin-bottom: 50px;
   margin:30px auto;
 }
