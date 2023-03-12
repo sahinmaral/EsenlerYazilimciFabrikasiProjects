@@ -16,7 +16,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "startJsonServer": "json-server --watch ./src/api/db.json",
+    "start_json_server": "json-server --watch ./src/api/db.json",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

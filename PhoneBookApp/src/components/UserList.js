@@ -5,18 +5,7 @@ export default class UserList extends Component {
   render() {
     return (
       <Fragment>
-        {!this.props.filter &&
-          this.props.users
-            .map((user, index) => {
-              return (
-                <UserCard
-                  key={index}
-                  user={user}
-                  setCurrentUser={this.props.setCurrentUser}
-                />
-              );
-            })}
-        {this.props.filter &&
+        {
           this.props.users
             .filter((user) => {
               return user.name.toLowerCase().search(this.props.filter) !== -1

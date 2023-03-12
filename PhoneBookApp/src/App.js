@@ -20,7 +20,7 @@ export default class App extends Component {
     this.state = {
       users: [],
       currentUser: null,
-      loading: true,
+      isLoading: true,
       errorMessage: "",
       modalToggle: false,
       filter:""
@@ -38,11 +38,10 @@ export default class App extends Component {
         this.setState({ users: res.data });
       })
       .catch((err) => {
-        console.log(err)
         this.setState({ errorMessage: `Fetch couldn't loaded correctly. ${err.message}` });
       })
       .finally(() => {
-        this.setState({ loading: false });
+        this.setState({ isLoading: false });
       });
   }
 
@@ -62,19 +61,19 @@ export default class App extends Component {
   render() {
     return (
       <Fragment>
-        {this.state.loading && (
+        {this.state.isLoading && (
           <Fragment>
             <Header />
             <Loading />
           </Fragment>
         )}
-        {!this.state.loading && this.state.errorMessage && (
+        {!this.state.isLoading && this.state.errorMessage && (
           <Fragment>
             <Header />
             <Alert color="danger">{this.state.errorMessage}</Alert>
           </Fragment>
         )}
-        {!this.state.loading && !this.state.errorMessage && (
+        {!this.state.isLoading && !this.state.errorMessage && (
           <Fragment>
             <Header />
             {this.state.currentUser !== null && (

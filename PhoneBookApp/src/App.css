@@ -41,7 +41,7 @@ body {
   margin-top: 30px;
 }
 
-.card {
+.card{
   margin: 10px 0;
   background-color: #ECF2FF !important;
 }
@@ -74,7 +74,6 @@ body {
     margin-top:200px;
     background-color: #FFF4D2 !important;
 }
-
 
 .modal .thumbnail {
   width: 100px;
