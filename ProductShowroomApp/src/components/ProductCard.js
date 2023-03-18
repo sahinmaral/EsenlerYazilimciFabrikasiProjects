@@ -34,7 +34,7 @@ function ProductCard(props) {
           <div style={{ marginTop: "30px" }}>
             <Link to={`/products/${product.id}`}>
               <Button type="primary" style={{ height: "40px" }}>
-                View more
+                More
               </Button>
             </Link>
             <Button
