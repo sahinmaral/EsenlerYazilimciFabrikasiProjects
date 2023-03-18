@@ -6,6 +6,10 @@
   margin: 0;
 }
 
+.homepage{
+  margin-top:50px;
+}
+
 .loading{
   position: absolute;
   top:50%;
@@ -109,7 +113,7 @@ button.remove-favourite:hover {
 
 .product-details {
   display: flex;
-  margin-top:50px;
+  margin:50px 0px;
 }
 
 .product-details > .detailed-informations h1 {
@@ -147,6 +151,11 @@ button.remove-favourite:hover {
   font-size: 18px;
   border-radius: 8px;
   border: 1px solid #93919180;
+}
+
+.product-details > .detailed-informations > .rating{
+  display:flex;
+  margin-top:30px;
 }
 
 .product-details > .detailed-informations > .description {
@@ -222,6 +231,10 @@ button.remove-favourite:hover {
 
   .product-details > .detailed-informations > .price {
     margin: 0 auto;
+  }
+
+  .product-details > .detailed-informations > .rating {
+    justify-content: center;
   }
 
   .product-details > .detailed-informations > .title,

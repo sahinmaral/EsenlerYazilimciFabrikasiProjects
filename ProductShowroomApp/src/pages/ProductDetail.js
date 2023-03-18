@@ -1,4 +1,4 @@
-import { Button } from "antd";
+import { Button, Rate } from "antd";
 import { Content } from "antd/es/layout/layout";
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
@@ -48,6 +48,9 @@ function ProductDetail() {
               <p>${currentProduct.price}</p>
             </div>
             <div className="category">{currentProduct.category}</div>
+            <div className="rating">
+              <Rate disabled defaultValue={currentProduct.rating.rate}/>
+            </div>
             <p className="description">{currentProduct.description}</p>
             <div className="add-favourite-part">
               <Button

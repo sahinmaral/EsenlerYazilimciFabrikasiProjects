@@ -16,6 +16,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useCallback, useEffect } from "react";
 import NotFoundPage from "./pages/NotFoundPage";
 import Loading from "./components/Loading";
+import Homepage from "./pages/Homepage";
 
 function App() {
   const dispatch = useDispatch();
@@ -92,9 +93,7 @@ function App() {
                   <Route
                     path="/"
                     element={
-                      <div>
-                        <p>Homepage</p>
-                      </div>
+                     <Homepage />
                     }
                   />
                   <Route path="/profile" element={<ProfilePage />} />
