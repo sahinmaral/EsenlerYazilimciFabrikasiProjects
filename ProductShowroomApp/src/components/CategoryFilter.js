@@ -12,6 +12,7 @@ function CategoryFilter() {
     return { label: category, value: category };
   });
 
+
   const onChange = (checkedValues) => {
     dispatch(setFilteredCategory(checkedValues));
   };
@@ -20,7 +21,6 @@ function CategoryFilter() {
     <Card className="category-checkbox-group">
       <Checkbox.Group
         options={plainOptions}
-        defaultValue={["Apple"]}
         onChange={onChange}
       />
     </Card>

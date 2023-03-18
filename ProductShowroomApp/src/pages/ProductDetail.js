@@ -11,28 +11,26 @@ import {
 } from "../redux/product/productSlice";
 
 function ProductDetail() {
-
   const { id } = useParams();
-  const { products, currentProduct, favouriteProductIds } =
-    useSelector((state) => state.product);
+  const { products, currentProduct, favouriteProductIds } = useSelector(
+    (state) => state.product
+  );
   const dispatch = useDispatch();
 
   const navigate = useNavigate();
 
   useEffect(() => {
-    if (products.length > 0) {
-      if (products.filter((product) => product.id === Number(id)).length > 0) {
-        dispatch(
-          setCurrentProduct({
-            favourite: favouriteProductIds.includes(Number(id)),
-            ...products.find((product) => product.id.toString() === id),
-          })
-        );
-      } else {
-        navigate("/404");
-      }
+    if (products.filter((product) => product.id === Number(id)).length > 0) {
+      dispatch(
+        setCurrentProduct({
+          favourite: favouriteProductIds.includes(Number(id)),
+          ...products.find((product) => product.id.toString() === id),
+        })
+      );
+    } else {
+      navigate("/404");
     }
-  }, [products, dispatch,id,navigate,favouriteProductIds]);
+  }, [products, dispatch, id, navigate, favouriteProductIds]);
 
   return (
     <div>
@@ -49,7 +47,7 @@ function ProductDetail() {
             </div>
             <div className="category">{currentProduct.category}</div>
             <div className="rating">
-              <Rate disabled defaultValue={currentProduct.rating.rate}/>
+              <Rate disabled defaultValue={currentProduct.rating.rate} />
             </div>
             <p className="description">{currentProduct.description}</p>
             <div className="add-favourite-part">

@@ -10,7 +10,7 @@ function ProductList() {
   return (
     <div>
       <Row style={{ margin: "50px 0" }}>
-        <Col xs={24} sm={24}>
+        <Col xs={24}>
           <NameFilter />
         </Col>
       </Row>
@@ -20,20 +20,25 @@ function ProductList() {
         </Col>
         <Col xs={24} sm={18} md={18} lg={20} xl={20}>
           <Row>
-          {products
-          .filter(
-            (product) =>
-              (filter.selectedCategories.includes(product.category) &&
-                product.title.toLocaleLowerCase().includes(filter.filteredTitle)) ||
-              (filter.selectedCategories.length === 0 && product.title.toLocaleLowerCase().includes(filter.filteredTitle))
-          )
-          .map((product) => {
-            return (
-              <Col xs={24} sm={12} md={8} lg={6} xl={6} key={product.id}>
-                <ProductCard product={product} />
-              </Col>
-            );
-          })}
+            {products
+              .filter(
+                (product) =>
+                  (filter.selectedCategories.includes(product.category) &&
+                    product.title
+                      .toLocaleLowerCase()
+                      .includes(filter.filteredTitle)) ||
+                  (filter.selectedCategories.length === 0 &&
+                    product.title
+                      .toLocaleLowerCase()
+                      .includes(filter.filteredTitle))
+              )
+              .map((product) => {
+                return (
+                  <Col xs={24} sm={12} md={8} lg={6} xl={6} key={product.id}>
+                    <ProductCard product={product} />
+                  </Col>
+                );
+              })}
           </Row>
         </Col>
       </Row>

@@ -21,12 +21,12 @@ import Homepage from "./pages/Homepage";
 function App() {
   const dispatch = useDispatch();
 
-  const { routes, isLoading, message, products, categories } = useSelector(
+  const { routes, isLoading, message } = useSelector(
     (state) => state.product
   );
 
-  const fetchProducts = useCallback(async () => {
-    await axios
+  const fetchProducts = useCallback(() => {
+     axios
       .get("https://fakestoreapi.com/products")
       .then((res) => {
         dispatch(setProducts(res.data));
@@ -39,8 +39,8 @@ function App() {
       });
   }, [dispatch]);
 
-  const fetchCategories = useCallback(async () => {
-    await axios
+  const fetchCategories = useCallback(() => {
+    axios
       .get("https://fakestoreapi.com/products/categories")
       .then((res) => dispatch(setCategories(res.data)))
       .catch((err) => {
@@ -59,7 +59,7 @@ function App() {
   const location = useLocation();
 
   const isLocationDefinedAtRoute =
-    routes.filter((route) => location.pathname.includes(route.key)).length > 0;
+    routes.filter((route) => route.key.includes(location.pathname)).length > 0;
 
   return (
     <Layout className="layout">
@@ -74,8 +74,7 @@ function App() {
           />
         )}
         {!isLoading &&
-          !message &&
-          (products.length > 0 || categories.length > 0) && (
+          !message  && (
             <>
               <Col
                 xs={isLocationDefinedAtRoute ? 2 : 0}

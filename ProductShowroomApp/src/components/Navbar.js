@@ -84,7 +84,7 @@ function Navbar() {
                   </Link>
                 );
               }else{
-                return <></>
+                return <div key={item.label}></div>
               }
             })}
           </div>
