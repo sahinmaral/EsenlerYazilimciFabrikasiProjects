@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.loading{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.routes{
+  display: flex;
+}
+
+.routes a{
+  color:rgb(167, 161, 161);
+}
+
+.routes a:hover{
+  color:white;
+}
+
+.category-checkbox-group .ant-checkbox-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.category-checkbox-group .ant-checkbox-group-item{
+  margin-left: -8px !important;
+}
+
+.category-checkbox-group .ant-checkbox-group-item span:last-child{
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.ant-layout {
+  background-color: white;
+}
+
+button.favourite {
+  font-weight: bold;
+}
+
+button.favourite:hover {
+  font-weight: bold !important;
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+button.add-favourite {
+  background-color: #ffadd2;
+}
+
+button.remove-favourite {
+  background-color: #a8071a;
+}
+
+button.add-favourite:hover {
+  background-color: #ffadd2 !important;
+}
+
+button.remove-favourite:hover {
+  background-color: #a8071a !important;
+}
+
+.ant-card-body > .image {
+  height: 250px;
+  padding: 20px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.ant-card-body > .image > img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+.ant-card-body > .information {
+  font-size: 18px;
+}
+
+.ant-card-body > .information > .information-title {
+  font-weight: 500;
+  overflow: hidden;
+  height: 34px;
+  margin-bottom: 5px;
+}
+
+.ant-card-body > .information > .information-price {
+  font-weight: 900;
+  margin: 0 0 10px 0;
+}
+
+.ant-card-body > .information > .information-category {
+  color: lightgray;
+  font-size: 15px;
+  margin: 0;
+}
+
+.product-details {
+  display: flex;
+  margin-top:50px;
+}
+
+.product-details > .detailed-informations h1 {
+  font-size: 30px;
+}
+
+.product-details > .divider {
+  border-color: rgb(211, 211, 211, 0.5);
+  border-style: solid;
+  border-right: 0.5px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.product-details > .detailed-informations > .price {
+  background-color: #038997;
+  width: 120px;
+  height: 50px;
+  font-weight: bold;
+  color: #fff;
+  font-size: 25px;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.product-details > .detailed-informations > .category {
+  background-color: #d3d3d380;
+  width: 100%;
+  padding: 20px 20px;
+  margin-top: 30px;
+  color: #d07d5f;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 8px;
+  border: 1px solid #93919180;
+}
+
+.product-details > .detailed-informations > .description {
+  color: rgb(161, 158, 158);
+  font-size: 16px;
+  margin-top: 30px;
+  line-height: 25px;
+}
+
+.product-details > .image {
+  height: 400px;
+  width: 400px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  margin-top:50px;
+}
+
+.profile > .information{
+  width:30%;
+}
+
+.profile > .favourite-items{
+  margin-left:50px;
+}
+
+@media screen and (max-width: 700px) {
+  .profile {
+    flex-direction: column;
+  }
+
+  .profile > .information{
+    width:100%;
+  }
+
+  .profile > .favourite-items{
+    margin-left:0px;
+  }
+
+  .product-details {
+    flex-direction: column;
+  }
+
+  .product-details > .image {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+
+  .product-details > .image > img {
+    width: 200px;
+    height: auto;
+  }
+
+  .product-details > .divider {
+    border-bottom: 0.5px;
+    border-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 10px;
+    border-radius: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .product-details > .detailed-informations > .price {
+    margin: 0 auto;
+  }
+
+  .product-details > .detailed-informations > .title,
+  .description {
+    text-align: center;
+  }
+
+  .product-details > .detailed-informations > .add-favourite-part {
+    display: flex;
+    justify-content: center;
+  }
+}
