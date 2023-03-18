@@ -33,33 +33,10 @@ function ProductCard(props) {
 
           <div style={{ marginTop: "30px" }}>
             <Link to={`/products/${product.id}`}>
-              <Button type="primary" style={{ height: "40px" }}>
+              <Button type="primary" style={{ height: "40px",width:"100%" }}>
                 More
               </Button>
             </Link>
-            <Button
-              onClick={() => {
-                if (isProductAddedToFavourite) {
-                  dispatch(removeFavouriteProduct(product.id));
-                } else {
-                  dispatch(addFavouriteProduct(product.id));
-                }
-              }}
-              className={`${isProductAddedToFavourite ? "remove-favourite" : "add-favourite"} favourite`}
-              type="primary"
-              style={{
-                float: "right",
-                borderRadius: "50%",
-                margin: 0,
-                padding: 0,
-                height: "40px",
-                width: "40px",
-              }}
-            >
-              {
-                 isProductAddedToFavourite ? <MinusCircleFilled /> : <HeartFilled />
-              }
-            </Button>
           </div>
         </div>
       </Card>
