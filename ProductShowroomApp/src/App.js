@@ -24,34 +24,33 @@ function App() {
   const { routes, isLoading, message } = useSelector((state) => state.product);
 
   const fetchProducts = useCallback(() => {
-    axios
-      .get("https://fakestoreapi.com/products")
+    return axios.get("https://fakestoreapi.com/products");
+  }, []);
+
+  const fetchCategories = useCallback(() => {
+    return axios.get("https://fakestoreapi.com/products/categories");
+  }, []);
+
+  useEffect(() => {
+    fetchProducts()
       .then((res) => {
         dispatch(setProducts(res.data));
       })
+      .then(() =>
+        fetchCategories()
+          .then((res) => {
+            dispatch(setCategories(res.data));
+          })
+          .catch((err) => {
+            dispatch(setMessage(err.message));
+          })
+      )
       .catch((err) => {
         dispatch(setMessage(err.message));
       })
       .finally(() => {
         dispatch(setIsLoading(false));
       });
-  }, [dispatch]);
-
-  const fetchCategories = useCallback(() => {
-    axios
-      .get("https://fakestoreapi.com/products/categories")
-      .then((res) => dispatch(setCategories(res.data)))
-      .catch((err) => {
-        dispatch(setMessage(err.message));
-      })
-      .finally(() => {
-        dispatch(setIsLoading(false));
-      });
-  }, [dispatch]);
-
-  useEffect(() => {
-    fetchProducts();
-    fetchCategories();
   }, [dispatch, fetchCategories, fetchProducts]);
 
   const location = useLocation();
