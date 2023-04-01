@@ -22,7 +22,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3005")
+      .get(process.env.REACT_APP_CRPYTO_CURRENCY_BACKEND_URL)
       .then((res) => {
         dispatch(setCurrencies(res.data.data));
       })
@@ -32,7 +32,6 @@ function App() {
       .finally(() => {
         dispatch(setIsLoading(false));
       });
-    dispatch(setIsLoading(false));
   }, [dispatch]);
 
   return (

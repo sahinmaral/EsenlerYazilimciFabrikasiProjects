@@ -76,9 +76,9 @@ body.light {
 }
 
 .api-alert{
-  width: 50%;
+  width: 80%;
   font-size:20px;
   text-align: center;
-  height: 100px;
+  height: 200px;
   margin:100px auto 0 auto;
 }
