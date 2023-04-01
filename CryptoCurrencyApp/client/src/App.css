@@ -1,0 +1,84 @@
+body.dark {
+  background-color: #141414;
+}
+
+body.light {
+  background-color: #d9d9d9;
+}
+
+.container {
+  position: relative;
+  margin-top: 50px;
+}
+
+.header.dark {
+  background-color: #001529;
+  color: white;
+}
+
+.header.light {
+  background-color: #f5f5f5;
+  color: black;
+}
+
+.theme-options {
+  float: right;
+}
+
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+}
+
+.loading .ant-spin-dot {
+  font-size: 100px;
+}
+
+.loading .ant-spin-dot i {
+  width: 35px;
+  height: 35px;
+}
+
+.name-filter {
+  margin-bottom: 50px;
+  display: flex;
+}
+
+.name-filter .ant-input-affix-wrapper {
+  border-radius: 8px 0 0 8px;
+}
+
+.name-filter button {
+  height: 40px;
+  width: 100px;
+  border-radius: 0px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.price.asc {
+  color: green;
+}
+
+.price.desc {
+  color: red;
+}
+
+.ant-pagination-options{
+  display: none !important;
+}
+
+.api-alert{
+  width: 50%;
+  font-size:20px;
+  text-align: center;
+  height: 100px;
+  margin:100px auto 0 auto;
+}
