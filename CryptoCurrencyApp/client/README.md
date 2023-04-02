@@ -29,7 +29,8 @@ Kullanılan teknolojiler ve paketler
   - @reduxjs/toolkit
   - react-redux
   - antd
-  - @iconify/react
+  - ~~@iconify/react~~ -> Bu paketi kullanmanıza gerek yok. Zaten bazı kripto para birimlerinde smybol değişkeni olarak aldığımız icon lar gelmiyor.
+    img oluşturup src kısmına https://s2.coinmarketcap.com/static/img/coins/64x64/${currency.id}.png olarak yazdığınız taktirde bütün para birimlerinin resimleri görüntülenecektir.
 
 Bu projenin back-end kısmı https://sahinmaral-cryptocurrencybackend.cyclic.app/ sitesinde yayınlanmıştır.
 Bu projenin front-end kısmı https://sahinmaral-cryptocurrency.netlify.app/ sitesinde yayınlanmıştır.
@@ -38,7 +39,7 @@ Bu projemizdeki amaç , sekizinci hafta öğrendiğimiz functional component yap
 
 1.  Repository üzerinde backend ve client klasörü olarak ikiye ayrılmaktadır. Sizin kendi React uygulamanız olduğu için client klasörünün içindekileri silip kendi React uygulamanızdaki dosyaları buraya koyabilirsiniz.
 2.  backend klasörüne terminal üzerinden gelip **_npm i_** komutu ile bağımlılıkları (dependencies) indiriniz.
-3.  https://coinmarketcap.com/ üzerinden üye olup kendinize bir API anahtarı alın ve backend uygulaması üzerinde .env dosyası oluşturarak içerisinde API anahtarınızı bir değişkende tutunuz. Örn. CRYPTOCURRENCY_API_KEY=**_API-ANAHTARINIZ_**
+3.  https://coinmarketcap.com/ üzerinden üye olup kendinize bir API anahtarı alın ve backend uygulaması üzerinde .env dosyası oluşturarak içerisinde API anahtarınızı bir değişkende tutunuz. Örn. CRYPTOCURRENCY*API_KEY=\*\*\_API-ANAHTARINIZ*\*\*
 4.  Terminal üzerinden **_npm run start_** komutu ile çalıştırınız.
 5.  Artık localhost domaini üzerinden 3005 portunda GET isteği yollarsanız https://coinmarketcap.com/ üzerinden yolladığımı API isteğinden cevapları React uygulamanızda kullanabilirsiniz. Eğer araştırırsanız https://www.cyclic.sh/ sitesi üzerinden bedava olarak bu basit API uygulamasını deploy edebilirsiniz ve canlıda iken kullanabilirsiniz.
 
@@ -72,7 +73,9 @@ Technologies and packages that has been used
   - @reduxjs/toolkit
   - react-redux
   - antd
-  - @iconify/react
+  - ~~@iconify/react~~ ->
+    You don't need to use this package. In some cryptocurrencies, the icons that we take as smybol variables do not come.
+    If you create an img and write it as https://s2.coinmarketcap.com/static/img/coins/64x64/${currency.id}.png in the src section, pictures of all currencies will be displayed.
 
 This project's back-end side has been deployed at https://sahinmaral-cryptocurrencybackend.cyclic.app/
 This project's front-end side has been deployed at https://sahinmaral-cryptocurrency.netlify.app/
@@ -81,7 +84,7 @@ The purpose of this project is to make an application where we can track and fil
 
 1.  Repository is divided into two as backend and client folder. Since you have your own React application, you can delete the contents of the client folder and put the files in your own React application here.
 2.  Go to the backend folder on the terminal and download the dependencies with the **_npm i_** command.
-3.  Sign up on https://coinmarketcap.com/ and get yourself an API key and create an .env file on the backend application and keep your API key in a variable. eg. CRYPTOCURRENCY_API_KEY=**_Your API-KEY_**
+3.  Sign up on https://coinmarketcap.com/ and get yourself an API key and create an .env file on the backend application and keep your API key in a variable. eg. CRYPTOCURRENCY*API_KEY=\*\*\_Your API-KEY*\*\*
 4.  Run the **_npm run start_** command from the terminal.
 5.  Now, if you send a GET request on port 3005 over the localhost domain, you can use the answers from the API request I sent via https://coinmarketcap.com/ in your React application. If you search, you can deploy this simple API application for free on https://www.cyclic.sh/ and use it while it is live.
 
