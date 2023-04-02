@@ -29,7 +29,7 @@ Kullanılan teknolojiler ve paketler
   - @reduxjs/toolkit
   - react-redux
   - antd
-  - ~~@iconify/react~~ -> Bu paketi kullanmanıza gerek yok. Zaten bazı kripto para birimlerinde smybol değişkeni olarak aldığımız icon lar gelmiyor.
+  - @iconify/react -> Bazı kripto para birimlerinde smybol değişkeni olarak aldığımız icon lar gelmiyor.
     img oluşturup src kısmına https://s2.coinmarketcap.com/static/img/coins/64x64/${currency.id}.png olarak yazdığınız taktirde bütün para birimlerinin resimleri görüntülenecektir.
 
 Bu projenin back-end kısmı https://sahinmaral-cryptocurrencybackend.cyclic.app/ sitesinde yayınlanmıştır.
@@ -73,8 +73,8 @@ Technologies and packages that has been used
   - @reduxjs/toolkit
   - react-redux
   - antd
-  - ~~@iconify/react~~ ->
-    You don't need to use this package. In some cryptocurrencies, the icons that we take as smybol variables do not come.
+  - @iconify/react ->
+    In some cryptocurrencies, the icons that we take as smybol variables do not come.
     If you create an img and write it as https://s2.coinmarketcap.com/static/img/coins/64x64/${currency.id}.png in the src section, pictures of all currencies will be displayed.
 
 This project's back-end side has been deployed at https://sahinmaral-cryptocurrencybackend.cyclic.app/
