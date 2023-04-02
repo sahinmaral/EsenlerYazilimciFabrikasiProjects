@@ -23,7 +23,7 @@ function CurrencyTable() {
       dataIndex: "price",
       key: "price",
       sorter: (a, b) =>
-        a.quote.USD.price - b.quote.USD.price,
+      a.price - b.price,
     },
     {
       title: "Exchange rate (USD/24hr)",
