@@ -82,3 +82,8 @@ body.light {
   height: 200px;
   margin:100px auto 0 auto;
 }
+
+.currency-icon{
+  width:64px;
+  height:64px;
+}

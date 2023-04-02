@@ -37,7 +37,7 @@ function CurrencyTable() {
     return {
       key: currency.id,
       symbol: (
-        <img src={`https://s2.coinmarketcap.com/static/img/coins/64x64/${currency.id}.png`} alt={currency.id} />
+        <img className="currency-icon" src={`https://s2.coinmarketcap.com/static/img/coins/64x64/${currency.id}.png`} alt={currency.id} />
       ),
       name: currency.name,
       price: currency.quote.USD.price,
