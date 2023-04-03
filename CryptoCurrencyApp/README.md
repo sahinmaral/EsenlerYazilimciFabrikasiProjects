@@ -125,22 +125,45 @@ The purpose of this project is to make an application where we can track and fil
 4.  Run the **_npm run start_** command from the terminal.
 5.  Now, if you send a GET request on port 3005 over the localhost domain, you can use the answers from the API request I sent via https://coinmarketcap.com/ in your React application. If you search, you can deploy this simple API application for free on https://www.cyclic.sh/ and use it while it is live.
 
-### <div id="eng-forth-video">First video </div>
+### <div id="eng-first-video">First video </div>
 
 We used Redux as state management on the project as usual, and Redux-Toolkit allows us to write simpler, readable code. We used Ant Design as CSS framework and as components we use Table , Alert , Grid structure , Spin , Input , Button etc. We used components such as and I explained them in detail. Even if you don't know the back-end application, I think it will be useful for you in the future, as I explained some terms and its working structure in the first video. In the first video, we also uploaded our dependencies and ended the first video.
 
-### <div id="eng-forth-video">Second video </div>
+You can check out first video by clicking [this link](https://www.youtube.com/watch?v=qeIyitrYmQs)
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+### <div id="eng-second-video">Second video </div>
 
 In the second video, we made our Redux configurations, we set the components that I wanted to be rendered according to the response of the API request through the backend application (Spinner, Alert and the components I wanted to be displayed), we provided the data from the API request to be displayed visually through the Table component on Ant Design.
 When we get smybol variables in some crypto currencies via @iconify/react, which is the icon pack we downloaded, the icons do not come. Here, instead of using the Icon element, we directly create a plain img element and enter it in the src section https://s2.coinmarketcap.com/static/img/coins/ If you write as 64x64/${currency.id}.png, images of all currencies will be displayed.
 
-### <div id="eng-forth-video">Third video </div>
+You can check out second video by clicking [this link](https://www.youtube.com/watch?v=WZyqpY74B_A)
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+### <div id="eng-third-video">Third video </div>
 
 In the third video, we slowly styled our page, filtered according to the names of cryptocurrencies, while we were doing this filtering, we used the useRef hook, we styled according to the 24-hour profit percentages of the currencies.
+
+You can check out third video by clicking [this link](https://www.youtube.com/watch?v=4jXtlHyYHSY)
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 ### <div id="eng-forth-video">Forth video </div>
 
 In our fourth video, I explained what the Context API is, which I will explain at the end of our third video, how to create it in our React applications, why we use Context API in our projects, and we handled the theme changing processes, which is one of the purposes of using Context API, thanks to the ConfigProvider component it provides on Ant Design.
+
+You can check out forth video by clicking [this link](https://www.youtube.com/watch?v=Dh3VY7Isr6U)
 
 <br/>
 <br/>
