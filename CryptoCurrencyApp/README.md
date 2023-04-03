@@ -1,21 +1,18 @@
-<style>
-	.main-header{
-		color:orange;
-	}
-
-	#eng-doc , #react-conf{
-		margin-top:500px;
-	}
-
-</style>
-
-# Headings
+# Başlıklar / Headings
 
 - [Türkçe Dökümantasyon](#tr-doc)
+  - [Birinci Video](#tr-first-video)
+  - [İkinci Video](#tr-second-video)
+  - [Üçüncü Video](#tr-third-video)
+  - [Dördüncü Video](#tr-forth-video)
 - [English Documentation](#eng-doc)
+  - [First Video](#eng-first-video)
+  - [Second Video](#eng-second-video)
+  - [Third Video](#eng-third-video)
+  - [Forth Video](#eng-forth-video)
 - [React Configuration](#react-conf)
 
-## <div id="tr-doc" class="main-header">TR - Crypto Currency App</div>
+## <div id="tr-doc">TR - Crypto Currency App</div>
 
 Kullanılan teknolojiler ve paketler
 
@@ -43,23 +40,63 @@ Bu projemizdeki amaç , sekizinci hafta öğrendiğimiz functional component yap
 4.  Terminal üzerinden **_npm run start_** komutu ile çalıştırınız.
 5.  Artık localhost domaini üzerinden 3005 portunda GET isteği yollarsanız https://coinmarketcap.com/ üzerinden yolladığımı API isteğinden cevapları React uygulamanızda kullanabilirsiniz. Eğer araştırırsanız https://www.cyclic.sh/ sitesi üzerinden bedava olarak bu basit API uygulamasını deploy edebilirsiniz ve canlıda iken kullanabilirsiniz.
 
-### Birinci video
+### <div id="tr-first-video">Birinci video</div>
 
 Proje üzerinde her zamanki gibi state management olarak Redux kullandık ve Redux-Toolkit ile daha basit , okunabilir bir kod yazmamızı sağlıyor. CSS framework olarak Ant Design kullandık ve component lar olarak sık kullandığımız Table , Alert , Grid yapısı , Spin , Input , Button vs. gibi component ları kullandık ve bunları detaylı olarak anlattım. Back-end uygulamasını bilmeseniz dahi bazı terimler ve işleyiş yapısı hakkında birinci videoda anlattığım için sizlerin ileriki zamanlarda yararlı olacağını düşünüyorum. Birinci videoda bunlardan ayrı olarak bir de bağımlılıklarımızı yükledik ve birinci videoya son vermiş olduk.
 
-### İkinci video
+Birinci videoyu incelemek için [bu linke](https://www.youtube.com/watch?v=qeIyitrYmQs) tıklayabilirsiniz
 
-İkinci vıdeoda Redux konfigürasyonlarımızı yaptık , backend uygulaması üzerinden API isteğinin cevabına göre render edilmesini istediğim component ları ayarladık (Spinner , Alert ve görüntülenmesini istediğim component larım) , API isteğinden gelen verilerimizi Ant Design üzerindeki Table component aracılığıyla görsel olarak görüntülenmesini sağladık.
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
-### Üçüncü video
+### <div id="tr-second-video">İkinci video </div>
 
-Üçüncü videoda sayfamız üzerinde yavaş yavaş stillendirme işlemleri yaptık , kripto para birimlerinin isimlerine göre filtreme işlemini yaptık , bu filtreleme işlemini yaptığımız sırada useRef hook unu kullandık , para birimlerinin 24 saatlık kar yüzdelerine göre stillendirme yaptık.
+İkinci videoda Redux konfigürasyonlarımızı yaptık , backend uygulaması üzerinden API isteğinin cevabına göre render edilmesini istediğim component ları ayarladık (Spinner , Alert ve görüntülenmesini istediğim component larım) , API isteğinden gelen verilerimizi Ant Design üzerindeki Table component aracılığıyla görsel olarak görüntülenmesini sağladık.
+İndirdiğimiz icon paketi olan @iconify/react üzerinden bazı kripto para birimlerinde smybol değişkeni olarak aldığımız zaman icon lar gelmiyor.Burada Icon elementini kullanmak yerine direkt sade img elementi oluşturup src kısmına https://s2.coinmarketcap.com/static/img/coins/64x64/${currency.id}.png olarak yazdığınız taktirde bütün para birimlerinin resimleri görüntülenecektir.
 
-### Dördüncü video
+İkinci videoyu incelemek için [bu linke](https://www.youtube.com/watch?v=WZyqpY74B_A) tıklayabilirsiniz
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+### <div id="tr-third-video">Üçüncü video </div>
+
+Üçüncü videoda sayfamız üzerinde yavaş yavaş stillendirme işlemleri yaptık , kripto para birimlerinin isimlerine göre filtreme işlemini yaptık , bu filtreleme işlemini yaptığımız sırada useRef hook unu kullandık , para birimlerinin 24 saatlik kar yüzdelerine göre stillendirme yaptık.
+
+Üçüncü videoyu incelemek için [bu linke](https://www.youtube.com/watch?v=4jXtlHyYHSY) tıklayabilirsiniz
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+### <div id="tr-forth-video">Dördüncü video </div>
 
 Dördüncü videomuzda ise üçüncü videomuzun sonunda anlatacağım Context API ın ne olduğunu ve React uygulamarımızda bunu nasıl oluşturacağımızı , projelerimizde neden Context API kullandığımızı anlattım ve Context API kullanmamızın amacından biri olan tema değiştirme işlemlerini Ant Design üzerinde sağlamış olduğu ConfigProvider component sayesinde hallettik.
 
-## <div id="eng-doc" class="main-header">ENG - Crypto Currency App</div>
+Dördüncü videoyu incelemek için [bu linke](https://www.youtube.com/watch?v=Dh3VY7Isr6U) tıklayabilirsiniz
+
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+## <div id="eng-doc">ENG - Crypto Currency App</div>
 
 Technologies and packages that has been used
 
@@ -88,23 +125,36 @@ The purpose of this project is to make an application where we can track and fil
 4.  Run the **_npm run start_** command from the terminal.
 5.  Now, if you send a GET request on port 3005 over the localhost domain, you can use the answers from the API request I sent via https://coinmarketcap.com/ in your React application. If you search, you can deploy this simple API application for free on https://www.cyclic.sh/ and use it while it is live.
 
-### Birinci video
+### <div id="eng-forth-video">First video </div>
 
 We used Redux as state management on the project as usual, and Redux-Toolkit allows us to write simpler, readable code. We used Ant Design as CSS framework and as components we use Table , Alert , Grid structure , Spin , Input , Button etc. We used components such as and I explained them in detail. Even if you don't know the back-end application, I think it will be useful for you in the future, as I explained some terms and its working structure in the first video. In the first video, we also uploaded our dependencies and ended the first video.
 
-### İkinci video
+### <div id="eng-forth-video">Second video </div>
 
 In the second video, we made our Redux configurations, we set the components that I wanted to be rendered according to the response of the API request through the backend application (Spinner, Alert and the components I wanted to be displayed), we provided the data from the API request to be displayed visually through the Table component on Ant Design.
+When we get smybol variables in some crypto currencies via @iconify/react, which is the icon pack we downloaded, the icons do not come. Here, instead of using the Icon element, we directly create a plain img element and enter it in the src section https://s2.coinmarketcap.com/static/img/coins/ If you write as 64x64/${currency.id}.png, images of all currencies will be displayed.
 
-### Üçüncü video
+### <div id="eng-forth-video">Third video </div>
 
 In the third video, we slowly styled our page, filtered according to the names of cryptocurrencies, while we were doing this filtering, we used the useRef hook, we styled according to the 24-hour profit percentages of the currencies.
 
-### Dördüncü video
+### <div id="eng-forth-video">Forth video </div>
 
 In our fourth video, I explained what the Context API is, which I will explain at the end of our third video, how to create it in our React applications, why we use Context API in our projects, and we handled the theme changing processes, which is one of the purposes of using Context API, thanks to the ConfigProvider component it provides on Ant Design.
 
-## <div id="react-conf" class="main-header">Getting Started with Create React App</div>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+## <div id="react-conf">Getting Started with Create React App</div>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
