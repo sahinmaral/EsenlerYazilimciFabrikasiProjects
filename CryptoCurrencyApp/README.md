@@ -44,7 +44,7 @@ Bu projemizdeki amaç , sekizinci hafta öğrendiğimiz functional component yap
 
 Proje üzerinde her zamanki gibi state management olarak Redux kullandık ve Redux-Toolkit ile daha basit , okunabilir bir kod yazmamızı sağlıyor. CSS framework olarak Ant Design kullandık ve component lar olarak sık kullandığımız Table , Alert , Grid yapısı , Spin , Input , Button vs. gibi component ları kullandık ve bunları detaylı olarak anlattım. Back-end uygulamasını bilmeseniz dahi bazı terimler ve işleyiş yapısı hakkında birinci videoda anlattığım için sizlerin ileriki zamanlarda yararlı olacağını düşünüyorum. Birinci videoda bunlardan ayrı olarak bir de bağımlılıklarımızı yükledik ve birinci videoya son vermiş olduk.
 
-Birinci videoyu incelemek için [bu linke](https://www.youtube.com/watch?v=qeIyitrYmQs) tıklayabilirsiniz
+<a href="https://www.youtube.com/watch?v=qeIyitrYmQs"><img src="./thumbnail-1.jpg" width="320px" height="180px"/></a>
 
 <br/>
 <br/>
@@ -57,7 +57,7 @@ Birinci videoyu incelemek için [bu linke](https://www.youtube.com/watch?v=qeIyi
 İkinci videoda Redux konfigürasyonlarımızı yaptık , backend uygulaması üzerinden API isteğinin cevabına göre render edilmesini istediğim component ları ayarladık (Spinner , Alert ve görüntülenmesini istediğim component larım) , API isteğinden gelen verilerimizi Ant Design üzerindeki Table component aracılığıyla görsel olarak görüntülenmesini sağladık.
 İndirdiğimiz icon paketi olan @iconify/react üzerinden bazı kripto para birimlerinde smybol değişkeni olarak aldığımız zaman icon lar gelmiyor.Burada Icon elementini kullanmak yerine direkt sade img elementi oluşturup src kısmına https://s2.coinmarketcap.com/static/img/coins/64x64/${currency.id}.png olarak yazdığınız taktirde bütün para birimlerinin resimleri görüntülenecektir.
 
-İkinci videoyu incelemek için [bu linke](https://www.youtube.com/watch?v=WZyqpY74B_A) tıklayabilirsiniz
+<a href="https://www.youtube.com/watch?v=WZyqpY74B_A"><img src="./thumbnail-2.jpg" width="320px" height="180px"/></a>
 
 <br/>
 <br/>
@@ -69,7 +69,7 @@ Birinci videoyu incelemek için [bu linke](https://www.youtube.com/watch?v=qeIyi
 
 Üçüncü videoda sayfamız üzerinde yavaş yavaş stillendirme işlemleri yaptık , kripto para birimlerinin isimlerine göre filtreme işlemini yaptık , bu filtreleme işlemini yaptığımız sırada useRef hook unu kullandık , para birimlerinin 24 saatlik kar yüzdelerine göre stillendirme yaptık.
 
-Üçüncü videoyu incelemek için [bu linke](https://www.youtube.com/watch?v=4jXtlHyYHSY) tıklayabilirsiniz
+<a href="https://www.youtube.com/watch?v=4jXtlHyYHSY"><img src="./thumbnail-3.jpg" width="320px" height="180px"/></a>
 
 <br/>
 <br/>
@@ -81,7 +81,7 @@ Birinci videoyu incelemek için [bu linke](https://www.youtube.com/watch?v=qeIyi
 
 Dördüncü videomuzda ise üçüncü videomuzun sonunda anlatacağım Context API ın ne olduğunu ve React uygulamarımızda bunu nasıl oluşturacağımızı , projelerimizde neden Context API kullandığımızı anlattım ve Context API kullanmamızın amacından biri olan tema değiştirme işlemlerini Ant Design üzerinde sağlamış olduğu ConfigProvider component sayesinde hallettik.
 
-Dördüncü videoyu incelemek için [bu linke](https://www.youtube.com/watch?v=Dh3VY7Isr6U) tıklayabilirsiniz
+<a href="https://www.youtube.com/watch?v=Dh3VY7Isr6U"><img src="./thumbnail-4.jpg" width="320px" height="180px"/></a>
 
 
 <br/>
@@ -129,7 +129,8 @@ The purpose of this project is to make an application where we can track and fil
 
 We used Redux as state management on the project as usual, and Redux-Toolkit allows us to write simpler, readable code. We used Ant Design as CSS framework and as components we use Table , Alert , Grid structure , Spin , Input , Button etc. We used components such as and I explained them in detail. Even if you don't know the back-end application, I think it will be useful for you in the future, as I explained some terms and its working structure in the first video. In the first video, we also uploaded our dependencies and ended the first video.
 
-You can check out first video by clicking [this link](https://www.youtube.com/watch?v=qeIyitrYmQs)
+<a href="https://www.youtube.com/watch?v=qeIyitrYmQs"><img src="./thumbnail-1.jpg" width="320px" height="180px"/></a>
+
 <br/>
 <br/>
 <br/>
@@ -141,7 +142,8 @@ You can check out first video by clicking [this link](https://www.youtube.com/wa
 In the second video, we made our Redux configurations, we set the components that I wanted to be rendered according to the response of the API request through the backend application (Spinner, Alert and the components I wanted to be displayed), we provided the data from the API request to be displayed visually through the Table component on Ant Design.
 When we get smybol variables in some crypto currencies via @iconify/react, which is the icon pack we downloaded, the icons do not come. Here, instead of using the Icon element, we directly create a plain img element and enter it in the src section https://s2.coinmarketcap.com/static/img/coins/ If you write as 64x64/${currency.id}.png, images of all currencies will be displayed.
 
-You can check out second video by clicking [this link](https://www.youtube.com/watch?v=WZyqpY74B_A)
+<a href="https://www.youtube.com/watch?v=WZyqpY74B_A"><img src="./thumbnail-2.jpg" width="320px" height="180px"/></a>
+
 <br/>
 <br/>
 <br/>
@@ -152,7 +154,8 @@ You can check out second video by clicking [this link](https://www.youtube.com/w
 
 In the third video, we slowly styled our page, filtered according to the names of cryptocurrencies, while we were doing this filtering, we used the useRef hook, we styled according to the 24-hour profit percentages of the currencies.
 
-You can check out third video by clicking [this link](https://www.youtube.com/watch?v=4jXtlHyYHSY)
+<a href="https://www.youtube.com/watch?v=4jXtlHyYHSY"><img src="./thumbnail-3.jpg" width="320px" height="180px"/></a>
+
 <br/>
 <br/>
 <br/>
@@ -163,7 +166,7 @@ You can check out third video by clicking [this link](https://www.youtube.com/wa
 
 In our fourth video, I explained what the Context API is, which I will explain at the end of our third video, how to create it in our React applications, why we use Context API in our projects, and we handled the theme changing processes, which is one of the purposes of using Context API, thanks to the ConfigProvider component it provides on Ant Design.
 
-You can check out forth video by clicking [this link](https://www.youtube.com/watch?v=Dh3VY7Isr6U)
+<a href="https://www.youtube.com/watch?v=Dh3VY7Isr6U"><img src="./thumbnail-4.jpg" width="320px" height="180px"/></a>
 
 <br/>
 <br/>
